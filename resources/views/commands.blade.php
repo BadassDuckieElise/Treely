@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-@include('layout');
-
-<!doctype html>
-<html class="no-js" lang="zxx">
-
-<body>
-
-</body>
-
-</html>
-=======
 @extends('layouts.commands')
 
 @section('content')
@@ -55,4 +43,3 @@
     </div>
 </div>
 @endsection
->>>>>>> master

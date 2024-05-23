@@ -45,10 +45,6 @@
                             <div class="logo">
                                 <a href="{{ url('/') }}">
                                     <img src="images/fishwiki.jpg" alt="">
-<<<<<<< HEAD
-                                
-=======
->>>>>>> master
                                 </a>
                             </div>
                         </div>
@@ -58,17 +54,10 @@
                                     <ul id="navigation">
                                         <li><a href="{{ url('commands') }}">Commands</a></li>
                                         <li><a href="https://discord.com/oauth2/authorize?response_type=code&client_id=1174053284391161926&redirect_uri=https://wumpus.store/login&scope=identify%20applications.builds.read&prompt=none">Vote</a></li>
-<<<<<<< HEAD
-                                        <!-- <label class="switch">
-                                            <input type="checkbox" id="darkModeToggle">
-                                            <span class="slider round"></span>
-                                        </label> -->
-=======
                                         <label class="switch">
                                             <input type="checkbox" id="darkModeToggle">
                                             <span class="slider round"></span>
                                         </label>
->>>>>>> master
                                     </ul>
                                 </nav>
                             </div>

@@ -5,21 +5,6 @@ Convert unit commands
 random article 
 
 
-<<<<<<< HEAD
-footer ___
-
-
-first place holder
-- recommended
-- socials
-
-
-second useful links
-- Support server
-- other things owned
-
-third place holder
-=======
 ___ footer ___
 
 first place holder // done
@@ -29,5 +14,4 @@ first place holder // done
 - other things owned
 
 second place holder // done
->>>>>>> master
 - legal & contact

@@ -13,6 +13,10 @@
   justify-content: start;
 }
 
+.test {
+  padding: 10px;
+}
+
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -26,73 +30,6 @@ body {
   font-style: normal;
 }
 
-
-body {
-  --bg-color: #333; /* Light mode background color */
-  --text-color: #fff; /* Light mode text color */
-}
-
-.dark-mode {
-  --bg-color: #333; /* Dark mode background color */
-  --text-color: #fff; /* Dark mode text color */
-}
-
-.container {
-  text-align: center;
-  margin-top: 100px;
-}
-
-h1 {
-  color: var(--text-color);
-}
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  transition: .4s;
-  border-radius: 34px;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  transition: .4s;
-  border-radius: 50%;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
-
-
-
 /* line 12, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
@@ -100,6 +37,22 @@ input:checked + .slider:before {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+
+.commands-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.mt-36 {
+  color:#5783d2;
 }
 
 /* line 16, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
@@ -190,6 +143,8 @@ label {
   padding-bottom: 100px;
   align-items: left;
 }
+
+
 
 
 /* line 76, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
