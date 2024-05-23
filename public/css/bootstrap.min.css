@@ -44,13 +44,37 @@
 
 html {
     font-family: sans-serif;
+<<<<<<< HEAD
     line-height: 1.15;
+=======
+    line-height: 1.5;
+>>>>>>> master
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent
 }
 
+<<<<<<< HEAD
+=======
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+.text-neutral-300 {
+    --tw-text-opacity: 1;
+    color: rgb(212 212 212 / var(--tw-text-opacity));
+}
+
+.gap-8 {
+    gap: 2rem;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+>>>>>>> master
 @-ms-viewport {
     width: device-width
 }
@@ -75,9 +99,15 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+<<<<<<< HEAD
     color: #fff;
     text-align: left;
     background-color: #333
+=======
+    color: #ffffff;
+    text-align: left;
+    background-color: #4f4f4f
+>>>>>>> master
 }
 
 [tabindex="-1"]:focus {
@@ -591,7 +621,19 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
+<<<<<<< HEAD
     margin-left: auto
+=======
+    margin-left: auto;
+}
+
+.container-policy {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 10px;
+>>>>>>> master
 }
 
 @media (min-width:576px) {
@@ -623,7 +665,11 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
+<<<<<<< HEAD
     margin-left: auto
+=======
+    margin-left: auto;
+>>>>>>> master
 }
 
 .row {
@@ -1767,7 +1813,12 @@ pre code {
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
+<<<<<<< HEAD
     background-color: transparent
+=======
+    background-color: transparent;
+    color: #fff;
+>>>>>>> master
 }
 
 .table td,
@@ -1955,7 +2006,11 @@ pre code {
 .table .thead-dark th {
     color: #fff;
     background-color: #212529;
+<<<<<<< HEAD
     border-color: #32383e
+=======
+    border-color: #212529;
+>>>>>>> master
 }
 
 .table .thead-light th {
@@ -6859,6 +6914,13 @@ button.bg-dark:hover {
     flex-wrap: wrap-reverse!important
 }
 
+<<<<<<< HEAD
+=======
+.flex-col {
+    flex-direction: column;
+}
+
+>>>>>>> master
 .justify-content-start {
     -webkit-box-pack: start!important;
     -ms-flex-pack: start!important;
@@ -7774,6 +7836,13 @@ button.bg-dark:hover {
     margin-top: 1rem!important
 }
 
+<<<<<<< HEAD
+=======
+.mt-36 {
+    margin-top: 7rem;
+}
+
+>>>>>>> master
 .mr-3,
 .mx-3 {
     margin-right: 1rem!important
@@ -7981,6 +8050,14 @@ button.bg-dark:hover {
     padding-left: 3rem!important
 }
 
+<<<<<<< HEAD
+=======
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+>>>>>>> master
 .m-auto {
     margin: auto!important
 }
@@ -9065,6 +9142,15 @@ button.bg-dark:hover {
     .text-lg-center {
         text-align: center!important
     }
+<<<<<<< HEAD
+=======
+    
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+>>>>>>> master
 }
 
 @media (min-width:1200px) {

@@ -192,7 +192,11 @@
   padding: 0;
 }
 .slicknav_icon-bar {
+<<<<<<< HEAD
     background: #000 !important;
+=======
+    background: #ffffff !important;
+>>>>>>> master
 }
 .slicknav_nav {
 	background: #fff;
@@ -200,7 +204,11 @@
 	margin-top:0;
 	padding: 0;
 	width: 100%;
+<<<<<<< HEAD
 	border-bottom: 1px solid #eee;
+=======
+	/* border-bottom: 1px solid #eee; */
+>>>>>>> master
 }
 
 .slicknav_nav a:hover {
@@ -212,7 +220,11 @@
 .slicknav_nav a {
     font-size: 14px;
     font-weight: 400;
+<<<<<<< HEAD
     color: #000;
+=======
+    color: #fff;
+>>>>>>> master
     text-transform: capitalize;
 }
 
