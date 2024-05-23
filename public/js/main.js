@@ -24,6 +24,7 @@ if(menu.length){
 		openedSymbol:'-'
 	});
 };
+<<<<<<< HEAD
 // blog-menu
   // $('ul#blog-menu').slicknav({
   //   prependTo: ".blog_menu"
@@ -131,6 +132,9 @@ autoplaySpeed: 800,
       }
   }
 });
+=======
+
+>>>>>>> master
 
 // for filter
   // init Isotope
@@ -211,6 +215,7 @@ $('.popup-video').magnificPopup({
   });
 
 
+<<<<<<< HEAD
   // blog-page
 
   //brand-active
@@ -330,10 +335,13 @@ $(document).ready(function() {
 			}
 		}
 	});
+=======
+>>>>>>> master
 });
 
 
 
+<<<<<<< HEAD
 //------- Mailchimp js --------//  
 function mailChimp() {
   $('#mc_embed_signup').find('form').ajaxChimp();
@@ -374,3 +382,6 @@ mailChimp();
 })(jQuery);	
 
 
+=======
+})(jQuery);	
+>>>>>>> master

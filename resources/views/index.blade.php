@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @include('layout');
 
 <!doctype html>
@@ -33,15 +34,32 @@
                     </div>
                 </div>
             </div>
+=======
+@include("navbar")
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<body>
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="slider_active owl-carousel">
+>>>>>>> master
             <div class="single_slider  d-flex align-items-center slider_bg_2">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
+<<<<<<< HEAD
                                 <h3> <span>Title</span> <br>
                                     second title </h3>
                                 <p>PlaceHolder.</p>
                                 <a href="#" class="boxed-btn3">Just a button :></a>
+=======
+                                <h3> <span>Fish Wiki</span></h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aperiam eum obcaecati provident perferendis consequatur dignissimos eos est rem vitae? Eum totam repudiandae mollitia ullam tenetur est recusandae quam laboriosam!</p>
+                                <a href="#" class="boxed-btn3">Add Bot :></a>
+>>>>>>> master
                             </div>
                         </div>
                     </div>
@@ -51,6 +69,7 @@
     </div>
     <!-- slider_area_end -->
 
+<<<<<<< HEAD
     <!-- service_area_start -->
     <!-- <div class="service_area">
         <div class="container p-0">
@@ -91,21 +110,32 @@
     <!-- service_area_end -->
 
     <!-- welcome_docmed_area_start -->
+=======
+    <!-- welcome_area_start -->
+>>>>>>> master
     <div class="welcome_docmed_area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="welcome_thumb">
                         <div class="thumb_1">
+<<<<<<< HEAD
                             <img src="img/about/1.png" alt="">
                         </div>
                         <div class="thumb_2">
                             <img src="img/about/2.png" alt="">
+=======
+                            <img src="images/logo.trans.blue.png" alt="">
+                        </div>
+                        <div class="thumb_2">
+                            <img src="images/logo.trans.blue.png" alt="">
+>>>>>>> master
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="welcome_docmed_info">
+<<<<<<< HEAD
                         <h2>FishWiki</h2>
                         <h3>Title <br>
                                 second title</h3>
@@ -117,11 +147,23 @@
                             <li> <i class="flaticon-right"></i> Fun for everyone </li>
                         </ul>
                         <a href="https://discord.com/oauth2/authorize?client_id=993620063288578088&permissions=412317240320&scope=bot" class="boxed-btn3-white-2">Add bot</a>
+=======
+                        <h2>Welcome to Fishwiki</h2>
+                        <h3>The bot for fish information</h3>
+                        <p>Lorem ipsum dolor sit amet.
+                        </p>
+                        <ul>
+                            <li> <i class="flaticon-right"></i> Lorem ipsum dolor sit amet. </li>
+                            <li> <i class="flaticon-right"></i> Lorem ipsum dolor sit amet.</li>
+                            <li> <i class="flaticon-right"></i> Lorem ipsum dolor sit amet. </li>
+                        </ul>
+>>>>>>> master
                     </div>
                 </div>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 
     <div class="welcome_docmed_area">
         <div class="container">
@@ -545,6 +587,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+=======
+    <!-- welcome_area_end -->
+
+    @include('footer')
+
+
+>>>>>>> master
     <script>
         $('#datepicker').datepicker({
             iconsLibrary: 'fontawesome',
