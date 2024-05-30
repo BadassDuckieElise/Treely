@@ -1,6 +1,7 @@
 @include("navbar")
 <!doctype html>
 <html class="no-js" lang="zxx">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <body>
 
@@ -26,56 +27,23 @@
 
     <!-- welcome_area_start -->
     <div class="welcome_docmed_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_thumb">
-                        <div class="thumb_1">
-                            <img src="images/logo.trans.blue.png" alt="">
-                        </div>
-                        <div class="thumb_2">
-                            <img src="images/logo.trans.blue.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_docmed_info">
-                        <h2>Welcome to Fishwiki</h2>
-                        <h3>The bot for fish information</h3>
-                        <p>Lorem ipsum dolor sit amet.
-                        </p>
-                        <ul>
-                            <li> <i class="flaticon-right"></i> Lorem ipsum dolor sit amet. </li>
-                            <li> <i class="flaticon-right"></i> Lorem ipsum dolor sit amet.</li>
-                            <li> <i class="flaticon-right"></i> Lorem ipsum dolor sit amet. </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="row mr-0">
+                <div class="container d-flex">
+                                <div class="welcome_docmed_info mr-5">
+                                    <h2>Welcome to Fishwiki</h2>
+                                    <h3>The bot for fish information</h3>
+                                    <p>Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                            @include('layouts/converter')
+</div>
+    </div>
     </div>
     <!-- welcome_area_end -->
+    
 
     @include('footer')
 
-
-    <script>
-        $('#datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-caret-down"></span>'
-            }
-        });
-        $('#datepicker2').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-caret-down"></span>'
-            }
-
-        });
-    $(document).ready(function() {
-    $('.js-example-basic-multiple').select2();
-});
     </script>
 </body>
 
