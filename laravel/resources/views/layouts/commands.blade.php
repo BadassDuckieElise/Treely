@@ -7,10 +7,14 @@
 </head>
 <body>
     @include('navbar')
+    <div class="d-flex flex-column m-100">
     <div class="container mt-5">
+        <div class="welcome_docmed_area">
+
+
         @yield('content')
     </div>
-
+    </div>
     @include('footer')
 
     <!-- Bootstrap Bundle with Popper -->

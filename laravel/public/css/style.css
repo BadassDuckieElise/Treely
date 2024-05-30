@@ -19,11 +19,26 @@
 /* small mobile :320px. */
 /* Large Mobile :480px. */
 /* 1. Theme default css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 /* line 5, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-fill {
+  flex: 0.5 1 auto !important;
 }
 
 /* line 12, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
@@ -34,6 +49,8 @@ body {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
+/* Commands page start */
 
 .commands-row {
   display: -webkit-box;
@@ -46,6 +63,62 @@ body {
   padding-bottom: 20px;
   padding-top: 10px;
 }
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  background-color: #333;
+}
+
+
+.command-item , .conversion-result {
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.command-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.command-item h5 {
+  margin: 0;
+  font-weight: 600;
+  color: #fff;
+}
+
+.command-item .btn-outline-secondary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.command-item .btn-outline-secondary:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.command-item .collapse {
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.command-item .collapse p,
+.command-item .collapse ul {
+  margin-bottom: 0;
+}
+
+.command-item .collapse ul {
+  padding-left: 20px;
+}
+
+/* commands page end */
 
 .mt-36 {
   color:#5783d2;
@@ -121,26 +194,25 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #4D4D4D;
+  /* color: #4D4D4D; */
   margin-bottom: 13px;
   font-family: "Poppins", sans-serif;
 }
 
 /* line 70, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 label {
-  color: #7e7e7e;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 400;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
 }
-
 
 .main-policy-info {
   padding-bottom: 100px;
   align-items: left;
 }
-
-
 
 
 /* line 76, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
@@ -1272,7 +1344,8 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
 .welcome_docmed_area {
   padding-top: 120px;
-  padding-bottom: 220px;
+  padding-bottom: 50px;
+  display: block;
 }
 
 @media (max-width: 767px) {
@@ -2178,7 +2251,10 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  position: inherit;
 }
+
 
 /* line 6, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .footer_top {
@@ -2190,7 +2266,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 6, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
   .footer .footer_top {
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 30px;
   }
 }
@@ -3123,6 +3199,10 @@ h3 {
   font-size: 14px;
 }
 
+.form-control {
+  background-color: #333;
+}
+
 /* line 57, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_contact.scss */
 .form-contact .form-group {
   margin-bottom: 30px;
@@ -3668,7 +3748,7 @@ h6 {
 .progress-table .table-row .country,
 .progress-table .table-row .visit,
 .progress-table .table-row .percentage {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 
